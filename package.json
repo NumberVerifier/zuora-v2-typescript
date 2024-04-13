@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Typescript for Zuora v2 from swagger file",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": "https://github.com/NumberVerifier/zuora-v2-typescript.git",
   "homepage": "https://github.com/NumberVerifier/zuora-v2-typescript",
   "bugs": "https://github.com/NumberVerifier/zuora-v2-typescript/issues",
