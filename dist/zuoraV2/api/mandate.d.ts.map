@@ -1,0 +1,1 @@
+{"version":3,"file":"mandate.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/mandate.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,gBAAgB,CAAC;AAEnD;;GAEG;AACH,MAAM,WAAW,OAAO;IACtB,uFAAuF;IACvF,EAAE,CAAC,EAAE,MAAM,CAAC;IACZ,8BAA8B;IAC9B,MAAM,CAAC,EAAE,MAAM,CAAC;IAChB,+FAA+F;IAC/F,QAAQ,CAAC,KAAK,CAAC,EAAE,YAAY,CAAC;CAC/B"}

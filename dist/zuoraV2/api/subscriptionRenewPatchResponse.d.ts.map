@@ -1,0 +1,1 @@
+{"version":3,"file":"subscriptionRenewPatchResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/subscriptionRenewPatchResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,6BAA6B,EAAE,MAAM,iCAAiC,CAAC;AAErF;;GAEG;AACH,MAAM,WAAW,8BAA8B;IAC7C,KAAK,CAAC,EAAE,6BAA6B,CAAC;CACvC"}

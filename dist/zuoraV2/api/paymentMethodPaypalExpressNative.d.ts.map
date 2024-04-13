@@ -1,0 +1,1 @@
+{"version":3,"file":"paymentMethodPaypalExpressNative.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/paymentMethodPaypalExpressNative.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;;GAEG;AACH,MAAM,MAAM,gCAAgC,GAAG;IAC7C,6EAA6E;IAC7E,IAAI,EAAE,MAAM,CAAC;IACb,6IAA6I;IAC7I,KAAK,CAAC,EAAE,MAAM,CAAC;CAChB,CAAC"}

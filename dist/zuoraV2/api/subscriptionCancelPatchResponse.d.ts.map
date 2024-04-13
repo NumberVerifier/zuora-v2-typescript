@@ -1,0 +1,1 @@
+{"version":3,"file":"subscriptionCancelPatchResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/subscriptionCancelPatchResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,uCAAuC,EAAE,MAAM,2CAA2C,CAAC;AAEzG;;GAEG;AACH,MAAM,WAAW,+BAA+B;IAC9C,uIAAuI;IACvI,SAAS,CAAC,EAAE,uCAAuC,CAAC;IACpD,kDAAkD;IAClD,WAAW,CAAC,EAAE,IAAI,CAAC;CACpB"}

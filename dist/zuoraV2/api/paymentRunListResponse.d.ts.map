@@ -1,0 +1,1 @@
+{"version":3,"file":"paymentRunListResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/paymentRunListResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,UAAU,EAAE,MAAM,cAAc,CAAC;AAE/C;GACG;AACH,MAAM,WAAW,sBAAsB;IACrC,IAAI,CAAC,EAAE,UAAU,EAAE,CAAC;IACpB,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B"}

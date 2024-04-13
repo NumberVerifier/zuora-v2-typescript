@@ -1,0 +1,1 @@
+{"version":3,"file":"subscriptionItemPreviewResponseTcb.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/subscriptionItemPreviewResponseTcb.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH,MAAM,MAAM,kCAAkC,GAAG;IAC/C,QAAQ,CAAC,EAAE,MAAM,CAAC;IAClB,YAAY,CAAC,EAAE,MAAM,CAAC;IACtB,UAAU,CAAC,EAAE,MAAM,CAAC;CACrB,CAAC"}

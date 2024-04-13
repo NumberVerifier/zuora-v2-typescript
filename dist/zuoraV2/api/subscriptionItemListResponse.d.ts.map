@@ -1,0 +1,1 @@
+{"version":3,"file":"subscriptionItemListResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/subscriptionItemListResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,gBAAgB,EAAE,MAAM,oBAAoB,CAAC;AAE3D;GACG;AACH,MAAM,WAAW,4BAA4B;IAC3C,IAAI,CAAC,EAAE,gBAAgB,EAAE,CAAC;IAC1B,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B"}

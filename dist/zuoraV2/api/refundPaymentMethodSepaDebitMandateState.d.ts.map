@@ -1,0 +1,1 @@
+{"version":3,"file":"refundPaymentMethodSepaDebitMandateState.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/refundPaymentMethodSepaDebitMandateState.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;;GAEG;AACH,oBAAY,wCAAwC;IAClD,MAAM,WAAU;IAChB,QAAQ,aAAY;IACpB,OAAO,YAAW;IAClB,MAAM,WAAU;CAEjB"}

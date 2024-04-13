@@ -1,0 +1,1 @@
+{"version":3,"file":"subscriptionItemPriceStartEvent.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/subscriptionItemPriceStartEvent.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;;GAEG;AACH,oBAAY,+BAA+B;IACzC,kBAAkB,uBAAsB;IACxC,kBAAkB,uBAAsB;IACxC,mBAAmB,wBAAuB;IAC1C,aAAa,kBAAiB;CAE/B"}

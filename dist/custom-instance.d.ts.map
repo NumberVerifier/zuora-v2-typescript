@@ -1,0 +1,1 @@
+{"version":3,"file":"custom-instance.d.ts","sourceRoot":"","sources":["../src/custom-instance.ts"],"names":[],"mappings":"AAEA,OAAc,EAAE,kBAAkB,EAAE,MAAM,OAAO,CAAC;AAClD,OAAO,EAAC,WAAW,EAAC,MAAM,eAAe,CAAC;AAE1C,eAAO,MAAM,cAAc,+BAAiB,CAAC;AAG7C,eAAO,MAAM,cAAc,cACf,kBAAkB,YAChB;IACN,MAAM,CAAC,EAAE,WAAW,CAAC;IACrB,QAAQ,CAAC,EAAE,kBAAkB,CAAA;CAChC,KACF,QAAQ,CAAC,CA8BX,CAAC"}

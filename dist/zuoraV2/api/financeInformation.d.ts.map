@@ -1,0 +1,1 @@
+{"version":3,"file":"financeInformation.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/financeInformation.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;GACG;AACH,MAAM,WAAW,kBAAkB;IACjC,yDAAyD;IACzD,kCAAkC,CAAC,EAAE,MAAM,CAAC;IAC5C,mHAAmH;IACnH,eAAe,CAAC,EAAE,MAAM,CAAC;CAC1B"}

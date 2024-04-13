@@ -1,0 +1,1 @@
+{"version":3,"file":"paymentMethodPaypalAdaptive.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/paymentMethodPaypalAdaptive.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;;GAEG;AACH,MAAM,MAAM,2BAA2B,GAAG;IACxC,wDAAwD;IACxD,KAAK,EAAE,MAAM,CAAC;IACd,8BAA8B;IAC9B,eAAe,EAAE,MAAM,CAAC;CACzB,CAAC"}

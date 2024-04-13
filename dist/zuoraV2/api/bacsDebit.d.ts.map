@@ -1,0 +1,1 @@
+{"version":3,"file":"bacsDebit.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/bacsDebit.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,gBAAgB,EAAE,MAAM,oBAAoB,CAAC;AAE3D;;GAEG;AACH,MAAM,WAAW,SAAS;IACxB,qDAAqD;IACrD,cAAc,EAAE,MAAM,CAAC;IACvB,gEAAgE;IAChE,SAAS,EAAE,MAAM,CAAC;IAClB,4HAA4H;IAC5H,OAAO,CAAC,EAAE,gBAAgB,CAAC;CAC5B"}

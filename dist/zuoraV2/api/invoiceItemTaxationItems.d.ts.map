@@ -1,0 +1,1 @@
+{"version":3,"file":"invoiceItemTaxationItems.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/invoiceItemTaxationItems.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,gBAAgB,CAAC;AAEnD;;GAEG;AACH,MAAM,MAAM,wBAAwB,GAAG;IACrC,IAAI,CAAC,EAAE,YAAY,EAAE,CAAC;IACtB,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"paymentSchedulePaymentOptionRequest.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/paymentSchedulePaymentOptionRequest.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,yCAAyC,EAAE,MAAM,6CAA6C,CAAC;AAE7G;GACG;AACH,MAAM,WAAW,mCAAmC;IAClD,MAAM,CAAC,EAAE,yCAAyC,CAAC;IACnD,IAAI,CAAC,EAAE,OAAO,CAAC;CAChB"}

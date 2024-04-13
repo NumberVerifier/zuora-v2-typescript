@@ -1,0 +1,1 @@
+{"version":3,"file":"filfillmentItemListResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/filfillmentItemListResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,eAAe,EAAE,MAAM,mBAAmB,CAAC;AAEzD;GACG;AACH,MAAM,WAAW,2BAA2B;IAC1C,IAAI,CAAC,EAAE,eAAe,EAAE,CAAC;IACzB,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B"}

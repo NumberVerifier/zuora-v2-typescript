@@ -1,0 +1,1 @@
+{"version":3,"file":"paymentMethodGooglePay.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/paymentMethodGooglePay.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,eAAe,CAAC;AAEjD;;GAEG;AACH,MAAM,MAAM,sBAAsB,GAAG;IACnC,oMAAoM;IACpM,IAAI,CAAC,EAAE,WAAW,CAAC;IACnB,0RAA0R;IAC1R,KAAK,CAAC,EAAE,MAAM,CAAC;CAChB,CAAC"}

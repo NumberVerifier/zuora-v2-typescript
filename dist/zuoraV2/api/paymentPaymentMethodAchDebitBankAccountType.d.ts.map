@@ -1,0 +1,1 @@
+{"version":3,"file":"paymentPaymentMethodAchDebitBankAccountType.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/paymentPaymentMethodAchDebitBankAccountType.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;;GAEG;AACH,oBAAY,2CAA2C;IACrD,eAAe,oBAAmB;IAClC,iBAAiB,sBAAqB;IACtC,QAAQ,aAAY;IACpB,MAAM,WAAU;CAEjB"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"subscriptionItemPrepaymentField.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/subscriptionItemPrepaymentField.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,6CAA6C,EAAE,MAAM,iDAAiD,CAAC;AAErH;;GAEG;AACH,MAAM,WAAW,+BAA+B;IAC9C,2DAA2D;IAC3D,QAAQ,CAAC,EAAE,MAAM,CAAC;IAClB,mGAAmG;IACnG,eAAe,CAAC,EAAE,6CAA6C,CAAC;CACjE"}

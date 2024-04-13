@@ -1,0 +1,1 @@
+{"version":3,"file":"debitMemoListResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/debitMemoListResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,SAAS,EAAE,MAAM,aAAa,CAAC;AAE7C;GACG;AACH,MAAM,WAAW,qBAAqB;IACpC,IAAI,CAAC,EAAE,SAAS,EAAE,CAAC;IACnB,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B"}

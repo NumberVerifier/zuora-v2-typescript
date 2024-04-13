@@ -1,0 +1,1 @@
+{"version":3,"file":"debitMemoItemApplicationRequest.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/debitMemoItemApplicationRequest.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;GACG;AACH,MAAM,WAAW,+BAA+B;IAC9C,wGAAwG;IACxG,MAAM,EAAE,MAAM,CAAC;IACf,iCAAiC;IACjC,EAAE,EAAE,MAAM,CAAC;IACX,uEAAuE;IACvE,gBAAgB,CAAC,EAAE,MAAM,CAAC;CAC3B"}
