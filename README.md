@@ -21,5 +21,5 @@ export enum ZUORA_ENDPOINTS {
 }
 ```
 ### Install with tag (update this to the latest tag)
- npm install --save "git://https://github.com/NumberVerifier/zuora-v2-typescript.git#v0.1.0"
+ npm install --save "git://github.com/NumberVerifier/zuora-v2-typescript.git#v0.1.0"
 
