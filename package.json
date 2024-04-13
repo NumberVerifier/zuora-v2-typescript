@@ -6,7 +6,6 @@
   "repository": "https://github.com/NumberVerifier/zuora-v2-typescript.git",
   "homepage": "https://github.com/NumberVerifier/zuora-v2-typescript",
   "bugs": "https://github.com/NumberVerifier/zuora-v2-typescript/issues",
-  "files": [ "dist" ],
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist/*",
