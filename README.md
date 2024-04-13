@@ -20,3 +20,6 @@ export enum ZUORA_ENDPOINTS {
     EU_PRODUCTION = "https://rest.eu.zuora.com"
 }
 ```
+### Install with tag (update this to the latest tag)
+ npm install --save "git://https://github.com/NumberVerifier/zuora-v2-typescript.git#v0.1.0"
+
