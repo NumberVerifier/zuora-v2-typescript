@@ -1,1 +1,0 @@
-{"version":3,"file":"refundPaymentMethodCustomObjects.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/refundPaymentMethodCustomObjects.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,wBAAwB,EAAE,MAAM,4BAA4B,CAAC;AAC3E,OAAO,KAAK,EAAE,YAAY,EAAE,MAAM,gBAAgB,CAAC;AAEnD;;GAEG;AACH,MAAM,MAAM,gCAAgC,GAAG,wBAAwB,GAAG,YAAY,CAAC"}

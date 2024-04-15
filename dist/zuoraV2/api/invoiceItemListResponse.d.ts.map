@@ -1,1 +1,0 @@
-{"version":3,"file":"invoiceItemListResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/invoiceItemListResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,WAAW,EAAE,MAAM,eAAe,CAAC;AAEjD;GACG;AACH,MAAM,WAAW,uBAAuB;IACtC,IAAI,CAAC,EAAE,WAAW,EAAE,CAAC;IACrB,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B"}

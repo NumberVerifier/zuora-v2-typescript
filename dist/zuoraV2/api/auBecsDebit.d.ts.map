@@ -1,1 +1,0 @@
-{"version":3,"file":"auBecsDebit.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/auBecsDebit.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,kBAAkB,EAAE,MAAM,sBAAsB,CAAC;AAE/D;;GAEG;AACH,MAAM,WAAW,WAAW;IAC1B,qDAAqD;IACrD,cAAc,EAAE,MAAM,CAAC;IACvB,uEAAuE;IACvE,WAAW,EAAE,MAAM,CAAC;IACpB,4HAA4H;IAC5H,OAAO,CAAC,EAAE,kBAAkB,CAAC;CAC9B"}

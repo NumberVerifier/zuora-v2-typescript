@@ -1,1 +1,0 @@
-{"version":3,"file":"creditMemoItemListResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/creditMemoItemListResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAEvD;GACG;AACH,MAAM,WAAW,0BAA0B;IACzC,IAAI,CAAC,EAAE,cAAc,EAAE,CAAC;IACxB,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"fulfillmentItemCreateBulkRequest.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/fulfillmentItemCreateBulkRequest.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,4BAA4B,EAAE,MAAM,gCAAgC,CAAC;AAEnF;GACG;AACH,MAAM,WAAW,gCAAgC;IAC/C,IAAI,CAAC,EAAE,4BAA4B,EAAE,CAAC;CACvC"}

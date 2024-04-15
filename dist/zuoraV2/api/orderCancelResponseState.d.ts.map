@@ -1,1 +1,0 @@
-{"version":3,"file":"orderCancelResponseState.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/orderCancelResponseState.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;;GAEG;AACH,oBAAY,wBAAwB;IAClC,OAAO,YAAW;IAClB,QAAQ,aAAY;IACpB,KAAK,UAAS;IACd,QAAQ,aAAY;IACpB,SAAS,cAAa;IACtB,SAAS,cAAa;IACtB,MAAM,WAAU;CAEjB"}

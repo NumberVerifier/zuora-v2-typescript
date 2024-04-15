@@ -1,1 +1,0 @@
-{"version":3,"file":"refundTransactionsStateAllOf.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/refundTransactionsStateAllOf.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH,MAAM,MAAM,4BAA4B,GAAG;IACzC,QAAQ,CAAC,MAAM,CAAC,EAAE,MAAM,CAAC;IACzB,QAAQ,CAAC,SAAS,CAAC,EAAE,MAAM,CAAC;CAC7B,CAAC"}

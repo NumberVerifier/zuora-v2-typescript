@@ -1,1 +1,0 @@
-{"version":3,"file":"refundPaymentMethodAchDebitBankAccountType.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/refundPaymentMethodAchDebitBankAccountType.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;;GAEG;AACH,oBAAY,0CAA0C;IACpD,eAAe,oBAAmB;IAClC,iBAAiB,sBAAqB;IACtC,QAAQ,aAAY;IACpB,MAAM,WAAU;CAEjB"}

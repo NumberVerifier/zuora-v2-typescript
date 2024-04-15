@@ -1,1 +1,0 @@
-{"version":3,"file":"prepaidBalances.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/prepaidBalances.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,cAAc,EAAE,MAAM,kBAAkB,CAAC;AAEvD;GACG;AACH,MAAM,WAAW,eAAe;IAC9B,mDAAmD;IACnD,QAAQ,CAAC,gBAAgB,CAAC,EAAE,SAAS,cAAc,EAAE,CAAC;CACvD"}

@@ -1,1 +1,0 @@
-{"version":3,"file":"billingDocumentItemListResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/billingDocumentItemListResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,mBAAmB,EAAE,MAAM,uBAAuB,CAAC;AAEjE;GACG;AACH,MAAM,WAAW,+BAA+B;IAC9C,IAAI,CAAC,EAAE,mBAAmB,EAAE,CAAC;IAC7B,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B"}

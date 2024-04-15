@@ -1,1 +1,0 @@
-{"version":3,"file":"refundPaymentMethodPaypalExpress.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/refundPaymentMethodPaypalExpress.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;;GAEG;AACH,MAAM,MAAM,gCAAgC,GAAG;IAC7C,6EAA6E;IAC7E,IAAI,EAAE,MAAM,CAAC;IACb,uDAAuD;IACvD,KAAK,EAAE,MAAM,CAAC;CACf,CAAC"}

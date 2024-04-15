@@ -1,1 +1,0 @@
-{"version":3,"file":"refundPaymentMethodPaypalAdaptive.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/refundPaymentMethodPaypalAdaptive.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;;GAEG;AACH,MAAM,MAAM,iCAAiC,GAAG;IAC9C,wDAAwD;IACxD,KAAK,EAAE,MAAM,CAAC;IACd,8BAA8B;IAC9B,eAAe,EAAE,MAAM,CAAC;CACzB,CAAC"}

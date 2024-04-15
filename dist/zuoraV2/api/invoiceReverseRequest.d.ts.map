@@ -1,1 +1,0 @@
-{"version":3,"file":"invoiceReverseRequest.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/invoiceReverseRequest.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;GACG;AACH,MAAM,WAAW,qBAAqB;IACpC,UAAU,CAAC,EAAE,IAAI,CAAC;IAClB,gDAAgD;IAChD,aAAa,CAAC,EAAE,IAAI,CAAC;CACtB"}

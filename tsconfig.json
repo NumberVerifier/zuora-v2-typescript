@@ -1,32 +1,11 @@
 {
-    "include": ["src/**/*.ts",
-      "src/examples/**/*.ts"
-    ],
-  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./tsconfig.cjs.json",
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "outDir": "dist",
-    "composite": false,
-    "declaration": true,
-    "declarationMap": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "inlineSources": false,
-    "isolatedModules": false,
-    "moduleResolution": "node",
-    "noUnusedLocals": false,
-    "noUnusedParameters": false,
-    "preserveWatchOutput": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "resolveJsonModule": true,
-    "sourceMap": true
+    "noEmit": true,
+    "types": ["node"]
   },
   "ts-node": {
-    "compilerOptions": {
-      "module": "commonjs"
-    }
-//    "esm": true
-  }
+    "experimentalResolver": true
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts"]
 }

@@ -1,1 +1,0 @@
-{"version":3,"file":"queryRunListResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/queryRunListResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,QAAQ,EAAE,MAAM,YAAY,CAAC;AAE3C;GACG;AACH,MAAM,WAAW,oBAAoB;IACnC,IAAI,CAAC,EAAE,QAAQ,EAAE,CAAC;IAClB,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B"}

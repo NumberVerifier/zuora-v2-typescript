@@ -1,1 +1,0 @@
-{"version":3,"file":"tier.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/tier.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,SAAS,CAAC;AAErC;;GAEG;AACH,MAAM,WAAW,IAAI;IACnB,gHAAgH;IAChH,OAAO,CAAC,EAAE,KAAK,CAAC;IAChB,kIAAkI;IAClI,YAAY,CAAC,EAAE,KAAK,CAAC;IACrB,wLAAwL;IACxL,KAAK,CAAC,EAAE,MAAM,CAAC;CAChB"}

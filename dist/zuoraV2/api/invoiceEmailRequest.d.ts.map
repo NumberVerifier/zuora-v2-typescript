@@ -1,1 +1,0 @@
-{"version":3,"file":"invoiceEmailRequest.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/invoiceEmailRequest.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;GACG;AACH,MAAM,WAAW,mBAAmB;IAClC,gIAAgI;IAChI,KAAK,CAAC,EAAE,MAAM,CAAC;IACf,oNAAoN;IACpN,kBAAkB,CAAC,EAAE,OAAO,CAAC;CAC9B"}

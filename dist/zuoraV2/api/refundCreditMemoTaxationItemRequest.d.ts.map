@@ -1,1 +1,0 @@
-{"version":3,"file":"refundCreditMemoTaxationItemRequest.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/refundCreditMemoTaxationItemRequest.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH;GACG;AACH,MAAM,WAAW,mCAAmC;IAClD,qBAAqB;IACrB,MAAM,EAAE,MAAM,CAAC;IACf,kDAAkD;IAClD,EAAE,CAAC,EAAE,MAAM,CAAC;CACb"}

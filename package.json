@@ -2,14 +2,27 @@
   "name": "zuora-v2-typescript",
   "version": "1.0.0",
   "description": "Typescript for Zuora v2 from swagger file",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "cjs/zuora.cjs.node.js",
+  "types": "types/index.d.ts",
+  "exports": {
+    "types": "./types/index.d.ts",
+    "default": {
+      "import": "./esm/zuora.esm.node.js",
+      "require": "./cjs/zuora.cjs.node.js"
+    }
+  },
+  "engines": {
+    "node": "^18.*"
+  },
   "repository": "https://github.com/NumberVerifier/zuora-v2-typescript.git",
   "homepage": "https://github.com/NumberVerifier/zuora-v2-typescript",
   "bugs": "https://github.com/NumberVerifier/zuora-v2-typescript/issues",
   "scripts": {
-    "build": "tsc",
-    "clean": "rm -rf dist/*",
+    "build": "yarn build-esm && yarn build-cjs && yarn build-types",
+    "build-esm": "mkdir -p esm && tsc -p tsconfig.esm.json && echo '{\"type\":\"module\"}' > esm/package.json",
+    "build-cjs": "mkdir -p cjs && tsc -p tsconfig.cjs.json && echo '{\"type\":\"commonjs\"}' > cjs/package.json",
+    "build-types": "tsc -b tsconfig.types.json",
+    "clean": "rm -rf ./.nyc_output ./node_modules/.cache ./coverage ./esm ./cjs ./dist ./types",
     "updateSchema": "curl --compressed -o './src/swaggerv2API.yaml' -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.5' -H 'Referer: https://developer.zuora.com/' 'https://developer.zuora.com/yaml/swaggerv2API.yaml'",
     "schema": "orval --config ./orval.config.ts"
   },

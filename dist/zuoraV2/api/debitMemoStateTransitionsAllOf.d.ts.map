@@ -1,1 +1,0 @@
-{"version":3,"file":"debitMemoStateTransitionsAllOf.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/debitMemoStateTransitionsAllOf.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH,MAAM,MAAM,8BAA8B,GAAG;IAC3C,QAAQ,CAAC,aAAa,CAAC,EAAE,MAAM,CAAC;IAChC,QAAQ,CAAC,WAAW,CAAC,EAAE,MAAM,CAAC;CAC/B,CAAC"}

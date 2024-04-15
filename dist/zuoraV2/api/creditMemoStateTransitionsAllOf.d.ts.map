@@ -1,1 +1,0 @@
-{"version":3,"file":"creditMemoStateTransitionsAllOf.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/creditMemoStateTransitionsAllOf.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH,MAAM,MAAM,+BAA+B,GAAG;IAC5C,QAAQ,CAAC,aAAa,CAAC,EAAE,MAAM,CAAC;IAChC,QAAQ,CAAC,WAAW,CAAC,EAAE,MAAM,CAAC;CAC/B,CAAC"}

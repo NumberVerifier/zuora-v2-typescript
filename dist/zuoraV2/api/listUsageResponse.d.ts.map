@@ -1,1 +1,0 @@
-{"version":3,"file":"listUsageResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/listUsageResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,SAAS,CAAC;AAErC;GACG;AACH,MAAM,WAAW,iBAAiB;IAChC,IAAI,CAAC,EAAE,KAAK,EAAE,CAAC;IACf,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B"}

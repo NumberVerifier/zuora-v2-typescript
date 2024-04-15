@@ -1,1 +1,0 @@
-{"version":3,"file":"refundListResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/refundListResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,MAAM,EAAE,MAAM,UAAU,CAAC;AAEvC;GACG;AACH,MAAM,WAAW,kBAAkB;IACjC,IAAI,CAAC,EAAE,MAAM,EAAE,CAAC;IAChB,gBAAgB;IAChB,SAAS,CAAC,EAAE,MAAM,GAAG,IAAI,CAAC;CAC3B"}

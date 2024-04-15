@@ -1,1 +1,0 @@
-{"version":3,"file":"invoiceStateTransitionsAllOf.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/invoiceStateTransitionsAllOf.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AAEH,MAAM,MAAM,4BAA4B,GAAG;IACzC,QAAQ,CAAC,aAAa,CAAC,EAAE,MAAM,CAAC;IAChC,QAAQ,CAAC,WAAW,CAAC,EAAE,MAAM,CAAC;CAC/B,CAAC"}

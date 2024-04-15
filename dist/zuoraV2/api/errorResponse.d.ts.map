@@ -1,1 +1,0 @@
-{"version":3,"file":"errorResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/errorResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,KAAK,EAAE,MAAM,SAAS,CAAC;AAErC;GACG;AACH,MAAM,WAAW,aAAa;IAC5B,MAAM,CAAC,EAAE,KAAK,EAAE,CAAC;IACjB,SAAS,CAAC,EAAE,OAAO,CAAC;IACpB,IAAI,CAAC,EAAE,MAAM,CAAC;CACf"}

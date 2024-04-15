@@ -1,1 +1,0 @@
-{"version":3,"file":"orderSubscriptionPreviewResponse.d.ts","sourceRoot":"","sources":["../../../src/zuoraV2/api/orderSubscriptionPreviewResponse.ts"],"names":[],"mappings":"AAAA;;;;;;;;;;;;;;;;GAgBG;AACH,OAAO,KAAK,EAAE,kCAAkC,EAAE,MAAM,sCAAsC,CAAC;AAE/F;GACG;AACH,MAAM,WAAW,gCAAgC;IAC/C,OAAO,CAAC,EAAE,kCAAkC,EAAE,CAAC;IAC/C,8EAA8E;IAC9E,mBAAmB,CAAC,EAAE,MAAM,CAAC;CAC9B"}
