@@ -1,5 +1,6 @@
 {
   "include": ["src", "types"],
+  "exclude": ["src/**/*.cy.tsx"],
   "compilerOptions": {
     "module": "ESNext",
     "lib": ["dom", "esnext"],
@@ -7,7 +8,7 @@
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,
-    "rootDir": "./",
+    "rootDir": "./src",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -21,10 +22,5 @@
     "noFallthroughCasesInSwitch": true,
     "moduleResolution": "node",
     "esModuleInterop": true
-  },
-  "ts-node": {
-    "compilerOptions": {
-      "module": "CommonJS"
-    }
   }
 }

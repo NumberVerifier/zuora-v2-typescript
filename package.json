@@ -1,44 +1,70 @@
 {
   "name": "zuora-v2-typescript",
   "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
   "description": "Typescript for Zuora v2 from swagger file",
-  "main": "cjs/zuora.cjs.node.js",
-  "types": "types/index.d.ts",
-  "exports": {
-    "types": "./types/index.d.ts",
-    "default": {
-      "import": "./esm/zuora.esm.node.js",
-      "require": "./cjs/zuora.cjs.node.js"
-    }
-  },
-  "engines": {
-    "node": "^18.*"
-  },
   "repository": "https://github.com/NumberVerifier/zuora-v2-typescript.git",
   "homepage": "https://github.com/NumberVerifier/zuora-v2-typescript",
   "bugs": "https://github.com/NumberVerifier/zuora-v2-typescript/issues",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": true,
   "scripts": {
-    "build": "yarn build-esm && yarn build-cjs && yarn build-types",
-    "build-esm": "mkdir -p esm && tsc -p tsconfig.esm.json && echo '{\"type\":\"module\"}' > esm/package.json",
-    "build-cjs": "mkdir -p cjs && tsc -p tsconfig.cjs.json && echo '{\"type\":\"commonjs\"}' > cjs/package.json",
-    "build-types": "tsc -b tsconfig.types.json",
-    "clean": "rm -rf ./.nyc_output ./node_modules/.cache ./coverage ./esm ./cjs ./dist ./types",
+    "lint": "eslint \"src/**/*.{ts,tsx}\"",
+    "build": "npm run clean && npm run build:core && npm run pack-and-extract && husky install",
+    "build:core": "microbundle --tsconfig tsconfig.build.json",
+    "pack-and-extract": "yarn pack -f zuora-v2-typescript.tgz && npm run rm-pkg && npm run extract-pkg",
+    "rm-pkg": "rimraf node_modules/zuora-v2-typescript && mkdir -p node_modules/zuora-v2-typescript",
+    "extract-pkg": "tar xzvf zuora-v2-typescript.tgz -C node_modules/zuora-v2-typescript --strip-components 1 && rimraf zuora-v2-typescript.tgz",
+    "clean": "rimraf .nyc_output ./node_modules/.cache ./coverage ./esm ./cjs ./dist ./types",
     "updateSchema": "curl --compressed -o './src/swaggerv2API.yaml' -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.5' -H 'Referer: https://developer.zuora.com/' 'https://developer.zuora.com/yaml/swaggerv2API.yaml'",
     "schema": "orval --config ./orval.config.ts"
   },
-  "author": "",
-  "license": "MIT",
+
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "arrowParens": "avoid"
+  },
+  "main": "dist/zuora-v2-typescript.umd.js",
+  "module": "dist/zuora-v2-typescript.esm.js",
+  "umd:main": "dist/zuora-v2-typescript.umd.js",
+  "unpkg": "dist/zuora-v2-typescript.umd.js",
+  "source": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/zuora-v2-typescript.esm.js",
+      "require": "./dist/zuora-v2-typescript.umd.js",
+      "umd": "./dist/zuora-v2-typescript.umd.js",
+      "browser": "./dist/zuora-v2-typescript.umd.js",
+      "default": "./dist/zuora-v2-typescript.umd.js"
+    },
+    "./package.json": "./package.json"
+  },
   "dependencies": {
     "@tsconfig/node16": "^16.1.3",
     "async-mutex": "^0.5.0",
-    "axios": "^1.6.8"
+    "axios": "^1.6.8",
+    "microbundle": "^0.15.1"
   },
   "devDependencies": {
-    "dotenv": "^16.4.5",
     "@tsconfig/node18": "^18.2.4",
     "@tsconfig/strictest": "^2.0.5",
     "@types/node": "^20.12.7",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "husky": "^9.0.11",
     "orval": "^6.27.1",
+    "rimraf": "^5.0.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.4.5"
   }
