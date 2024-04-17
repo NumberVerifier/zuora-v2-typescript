@@ -4,21 +4,28 @@ import {ZUORA_ENDPOINTS} from "./endpoints";
 
 const VER = "/v2";
 
+
 export class ZuoraClient {
     clientId: string;
     clientSecret: string;
-    endpoint: ZUORA_ENDPOINTS;
+    endpoint: string;
     auth: AuthResponse | null = null;
     authExpires: Date | null = null;
     private mutex = new Mutex();
 
+    // The ZuoraClient class is a wrapper around the Zuora REST API. It provides a simple interface for making requests to the API.
+    // Endpoint can be a key from the ZUORA_ENDPOINTS enum or a full URL.
     constructor(clientId?: string, clientSecret?: string, endpoint?: string) {
         if (!clientId || !clientSecret || !endpoint) throw new Error("Missing required parameters")
-        const mappedEndpoint = this.getZuoraEndpointByKey(endpoint);
-        if (!mappedEndpoint) throw new Error("Invalid endpoint")
+        if (endpoint.startsWith("http") || endpoint.startsWith("/"))  {
+            this.endpoint = endpoint
+        } else {
+            const mappedEndpoint = this.getZuoraEndpointByKey(endpoint);
+            if (!mappedEndpoint) throw new Error("Invalid endpoint")
+            this.endpoint = mappedEndpoint
+        }
         this.clientId = clientId;
         this.clientSecret = clientSecret;
-        this.endpoint = mappedEndpoint
     }
 
     public async addAuth(cfg:AxiosRequestConfig) {
@@ -51,7 +58,7 @@ export class ZuoraClient {
                 client_secret: this.clientSecret,
                 grant_type: "client_credentials",
             });
-            console.log("getToken", this.endpoint, qs.toString());
+            // console.log("getToken", this.endpoint, qs.toString());
             const response = await axios.post(`${this.endpoint}/oauth/token`, qs.toString(), {
                 headers: {
                     'content-type': 'application/x-www-form-urlencoded',

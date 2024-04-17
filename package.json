@@ -15,6 +15,7 @@
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "build": "npm run clean && npm run build:core && npm run pack-and-extract && husky install",
     "build:core": "microbundle --tsconfig tsconfig.build.json",
+    "prettier": "prettier --write src",
     "pack-and-extract": "yarn pack -f zuora-v2-typescript.tgz && npm run rm-pkg && npm run extract-pkg",
     "rm-pkg": "rimraf node_modules/zuora-v2-typescript && mkdir -p node_modules/zuora-v2-typescript",
     "extract-pkg": "tar xzvf zuora-v2-typescript.tgz -C node_modules/zuora-v2-typescript --strip-components 1 && rimraf zuora-v2-typescript.tgz",
@@ -54,6 +55,7 @@
     "microbundle": "^0.15.1"
   },
   "devDependencies": {
+    "prettier": "3.2.2",
     "@tsconfig/node18": "^18.2.4",
     "@tsconfig/strictest": "^2.0.5",
     "@types/node": "^20.12.7",
