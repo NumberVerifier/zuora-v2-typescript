@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Unit in which term duration is defined. One of day, week, month or year.
  */
 export enum TermInterval {
-  day= 'day',
-  week= 'week',
-  month= 'month',
-  year= 'year',
-
+  day = 'day',
+  week = 'week',
+  month = 'month',
+  year = 'year'
 }

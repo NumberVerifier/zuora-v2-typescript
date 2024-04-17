@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Based on the current date to populate a state field with the enumeration: [inactive, active, expired] where inactive would represent charge segments with a start_date in the future and expired charge segments with an end_date in the past.
  */
 export enum SubscriptionItemState {
-  inactive= 'inactive',
-  active= 'active',
-  expired= 'expired',
-
+  inactive = 'inactive',
+  active = 'active',
+  expired = 'expired'
 }

@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of billing document. Can be one of the debit memo or invoice.
  */
 export enum PaymentsAppliedToResponseBillingDocumentType {
-  debit_memo= 'debit_memo',
-  invoice= 'invoice',
-
+  debit_memo = 'debit_memo',
+  invoice = 'invoice'
 }

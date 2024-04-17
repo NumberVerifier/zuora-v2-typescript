@@ -20,10 +20,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The payment gateway state of the refund.
  */
 export enum RefundGatewayState {
-  marked_for_submission= 'marked_for_submission',
-  submitted= 'submitted',
-  settled= 'settled',
-  not_submitted= 'not_submitted',
-  failed= 'failed',
-
+  marked_for_submission = 'marked_for_submission',
+  submitted = 'submitted',
+  settled = 'settled',
+  not_submitted = 'not_submitted',
+  failed = 'failed'
 }

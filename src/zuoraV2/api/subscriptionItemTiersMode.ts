@@ -20,10 +20,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Specifies the kind of tiering.
  */
 export enum SubscriptionItemTiersMode {
-  graduated= 'graduated',
-  volume= 'volume',
-  high_watermark_volume= 'high_watermark_volume',
-  high_watermark_graduated= 'high_watermark_graduated',
-  graduated_with_overage= 'graduated_with_overage',
-
+  graduated = 'graduated',
+  volume = 'volume',
+  high_watermark_volume = 'high_watermark_volume',
+  high_watermark_graduated = 'high_watermark_graduated',
+  graduated_with_overage = 'graduated_with_overage'
 }

@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Specifies at what level a discount should be applied: one of account, subscription or plan.
  */
 export enum SubscriptionItemDiscountLevel {
-  account= 'account',
-  subscription= 'subscription',
-  plan= 'plan',
-
+  account = 'account',
+  subscription = 'subscription',
+  plan = 'plan'
 }

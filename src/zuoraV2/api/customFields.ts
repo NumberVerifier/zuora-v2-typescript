@@ -19,4 +19,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
 /**
  * Set of user-defined fields associated with this object. Useful for storing additional information about the object in a structured format.
  */
-export interface CustomFields { [key: string]: any }
+export interface CustomFields {
+  [key: string]: any;
+}

@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Type of the subscription. Can be either `termed` or `evergreen`.
  */
 export enum TermType {
-  evergreen= 'evergreen',
-  termed= 'termed',
-
+  evergreen = 'evergreen',
+  termed = 'termed'
 }

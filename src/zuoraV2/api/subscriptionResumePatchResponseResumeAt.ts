@@ -20,6 +20,5 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * You can use this field to resume a paused subscription from the pause date.
  */
 export enum SubscriptionResumePatchResponseResumeAt {
-  pause_date= 'pause_date',
-
+  pause_date = 'pause_date'
 }

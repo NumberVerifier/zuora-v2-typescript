@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The status of the payment authorization.
  */
 export enum PaymentMethodAuthorizationResponseState {
-  approved= 'approved',
-  queued_for_submission= 'queued_for_submission',
-
+  approved = 'approved',
+  queued_for_submission = 'queued_for_submission'
 }

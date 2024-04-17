@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The status of the payment schedule. active: there are unprocessed payment schedule items. canceled: the payment schedule has been canceled. complete: the payment schedule is complete and all items have been processed.
  */
 export enum PaymentScheduleState {
-  active= 'active',
-  canceled= 'canceled',
-  complete= 'complete',
-
+  active = 'active',
+  canceled = 'canceled',
+  complete = 'complete'
 }

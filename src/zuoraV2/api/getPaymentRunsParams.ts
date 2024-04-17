@@ -17,40 +17,40 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export type GetPaymentRunsParams = {
-/**
- * A cursor for use in pagination. A cursor defines the starting place in a list. For instance, if you make a list request and receive 100 objects, ending with `next_page=W3sib3JkZXJ=`, your subsequent call can include `cursor=W3sib3JkZXJ=` in order to fetch the next page of the list.
- */
-cursor?: string;
-/**
- * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'expand[]'?: string[];
-/**
- * A case-sensitive filter on the list. See the [Filter lists](https://developer.zuora.com/quickstart-api/tutorial/filter-lists/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'filter[]'?: string[];
-/**
- * A case-sensitive query parameter that specifies the sort order of the list, which can be either ascending (e.g. `account_number.asc`) or descending (e.g. `account_number.desc`). You cannot sort on properties that are arrays. If the array-type properties are specified for the `sort[]` parameter, they are ignored.
- */
-'sort[]'?: string[];
-/**
- * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
- */
-page_size?: number;
-/**
+  /**
+   * A cursor for use in pagination. A cursor defines the starting place in a list. For instance, if you make a list request and receive 100 objects, ending with `next_page=W3sib3JkZXJ=`, your subsequent call can include `cursor=W3sib3JkZXJ=` in order to fetch the next page of the list.
+   */
+  cursor?: string;
+  /**
+   * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'expand[]'?: string[];
+  /**
+   * A case-sensitive filter on the list. See the [Filter lists](https://developer.zuora.com/quickstart-api/tutorial/filter-lists/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'filter[]'?: string[];
+  /**
+   * A case-sensitive query parameter that specifies the sort order of the list, which can be either ascending (e.g. `account_number.asc`) or descending (e.g. `account_number.desc`). You cannot sort on properties that are arrays. If the array-type properties are specified for the `sort[]` parameter, they are ignored.
+   */
+  'sort[]'?: string[];
+  /**
+   * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
+   */
+  page_size?: number;
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `batch`, `bill_cycle_day`, `target_date`, `payment_run_number`, `state`, `apply_credit_memos`, `apply_unapplied_payments`, `bill_run_id`, `collect_payment`, `consolidate_payment`, `payment_run_date`, `payment_gateway_id`, `state_transitions` 
         </details>
  */
-'fields[]'?: string[];
-/**
+  'fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `number_of_unprocessed_receivables`, `number_of_errors`, `number_of_invoices`, `number_of_payments`, `number_of_credit_memos`, `number_of_debit_memos`, `number_of_unprocessed_debit_memos`, `number_of_unapplied_payments`, `errors_total`, `invoices_total`, `payments_total`, `unprocessed_receivables_total` 
         </details>
  */
-'summary.fields[]'?: string[];
+  'summary.fields[]'?: string[];
 };

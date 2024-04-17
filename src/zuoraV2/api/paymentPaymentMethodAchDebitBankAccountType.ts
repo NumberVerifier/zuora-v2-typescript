@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of bank account associated with the payment method.
  */
 export enum PaymentPaymentMethodAchDebitBankAccountType {
-  business_saving= 'business_saving',
-  business_checking= 'business_checking',
-  checking= 'checking',
-  saving= 'saving',
-
+  business_saving = 'business_saving',
+  business_checking = 'business_checking',
+  checking = 'checking',
+  saving = 'saving'
 }

@@ -20,10 +20,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The period in which the prepayment units are valid to use as defined in a prepayment charge.
  */
 export enum PrepaymentValidityPeriod {
-  subscription_term= 'subscription_term',
-  annual= 'annual',
-  semi_annual= 'semi_annual',
-  quarter= 'quarter',
-  month= 'month',
-
+  subscription_term = 'subscription_term',
+  annual = 'annual',
+  semi_annual = 'semi_annual',
+  quarter = 'quarter',
+  month = 'month'
 }

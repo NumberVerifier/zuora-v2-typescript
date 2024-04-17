@@ -20,10 +20,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Specifies the billing frequency. One of `week`, `month` or `year`.
  */
 export enum SubscriptionItemRecurringInterval {
-  month= 'month',
-  year= 'year',
-  week= 'week',
-  term= 'term',
-  day= 'day',
-
+  month = 'month',
+  year = 'year',
+  week = 'week',
+  term = 'term',
+  day = 'day'
 }

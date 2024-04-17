@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The category for the order line item, to indicate a product sale or return.
  */
 export enum LineItemCategory {
-  sale= 'sale',
-  return= 'return',
-
+  sale = 'sale',
+  return = 'return'
 }

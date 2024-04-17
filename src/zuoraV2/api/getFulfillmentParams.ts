@@ -17,49 +17,49 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export type GetFulfillmentParams = {
-/**
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `state`, `description`, `quantity`, `order_line_item_id`, `fulfillment_number`, `revenue`, `fulfillment_date`, `tracking_number`, `carrier`, `fulfillment_system`, `location`, `external_id`, `type`, `target_date` 
         </details>
  */
-'fields[]'?: string[];
-/**
+  'fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `fulfillment_id`, `description`, `fulfillment_item_number` 
         </details>
  */
-'fulfillment_item.fields[]'?: string[];
-/**
+  'fulfillment_item.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `amount`, `applied_to_item_id`, `price_id`, `discount_item`, `deferred_revenue_account`, `description`, `credit_memo_id`, `sku`, `name`, `purchase_order_number`, `quantity`, `recognized_revenue_account`, `remaining_balance`, `revenue_recognition_rule_name`, `service_end`, `service_start`, `accounts_receivable_account`, `on_account_account`, `subscription_id`, `subscription_item_id`, `tax`, `tax_code`, `tax_inclusive`, `unit_amount`, `unit_of_measure`, `subtotal`, `invoice_item_id`, `document_item_date` 
         </details>
  */
-'credit_memo_item.fields[]'?: string[];
-/**
+  'credit_memo_item.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `amount`, `booking_reference`, `applied_to_item_id`, `price_id`, `discount_item`, `deferred_revenue_account`, `description`, `invoice_id`, `sku`, `name`, `purchase_order_number`, `quantity`, `recognized_revenue_account`, `remaining_balance`, `revenue_recognition_rule_name`, `accounting_code`, `service_end`, `service_start`, `accounts_receivable_account`, `subscription_id`, `subscription_item_id`, `tax`, `tax_code`, `tax_inclusive`, `unit_amount`, `unit_of_measure`, `document_item_date` 
         </details>
  */
-'invoice_item.fields[]'?: string[];
-/**
- * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'expand[]'?: string[];
-/**
+  'invoice_item.fields[]'?: string[];
+  /**
+   * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'expand[]'?: string[];
+  /**
  * A case-sensitive filter on the list. See the [Filter lists](https://developer.zuora.com/quickstart-api/tutorial/filter-lists/) section of the Quickstart API Tutorial for detailed instructions.            
             Note that the filters on this operation are only applicable to the related objects. For example, when you are calling the "Retrieve a billing document" operation, you can use the `filter[]` parameter on the related objects such as `filter[]=items[account_id].EQ:8ad09e208858b5cf0188595208151c63`
  */
-'filter[]'?: string[];
-/**
- * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
- */
-page_size?: number;
+  'filter[]'?: string[];
+  /**
+   * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
+   */
+  page_size?: number;
 };

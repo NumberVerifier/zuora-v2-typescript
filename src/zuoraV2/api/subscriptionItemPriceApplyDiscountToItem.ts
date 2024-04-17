@@ -17,8 +17,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export enum SubscriptionItemPriceApplyDiscountToItem {
-  one_time= 'one_time',
-  recurring= 'recurring',
-  usage= 'usage',
-
+  one_time = 'one_time',
+  recurring = 'recurring',
+  usage = 'usage'
 }

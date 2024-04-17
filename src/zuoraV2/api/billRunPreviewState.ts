@@ -20,10 +20,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The state of the bill run preview.
  */
 export enum BillRunPreviewState {
-  pending= 'pending',
-  processing= 'processing',
-  completed= 'completed',
-  failed= 'failed',
-  canceled= 'canceled',
-
+  pending = 'pending',
+  processing = 'processing',
+  completed = 'completed',
+  failed = 'failed',
+  canceled = 'canceled'
 }

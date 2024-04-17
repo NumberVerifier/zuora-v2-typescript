@@ -20,16 +20,15 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The action associated with this metric.
  */
 export enum SubscriptionPreviewActionsResponseAction {
-  create_subscription= 'create_subscription',
-  terms= 'terms',
-  add_subscription_plan= 'add_subscription_plan',
-  update_subscription_plan= 'update_subscription_plan',
-  remove_subscription_plan= 'remove_subscription_plan',
-  renew= 'renew',
-  cancel= 'cancel',
-  owner_transfer= 'owner_transfer',
-  pause= 'pause',
-  resume= 'resume',
-  replace_subscription_plan= 'replace_subscription_plan',
-
+  create_subscription = 'create_subscription',
+  terms = 'terms',
+  add_subscription_plan = 'add_subscription_plan',
+  update_subscription_plan = 'update_subscription_plan',
+  remove_subscription_plan = 'remove_subscription_plan',
+  renew = 'renew',
+  cancel = 'cancel',
+  owner_transfer = 'owner_transfer',
+  pause = 'pause',
+  resume = 'resume',
+  replace_subscription_plan = 'replace_subscription_plan'
 }

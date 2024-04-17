@@ -20,12 +20,11 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The status of the order.
  */
 export enum SubscriptionVersionOrderState {
-  pending= 'pending',
-  complete= 'complete',
-  draft= 'draft',
-  canceled= 'canceled',
-  scheduled= 'scheduled',
-  executing= 'executing',
-  failed= 'failed',
-
+  pending = 'pending',
+  complete = 'complete',
+  draft = 'draft',
+  canceled = 'canceled',
+  scheduled = 'scheduled',
+  executing = 'executing',
+  failed = 'failed'
 }

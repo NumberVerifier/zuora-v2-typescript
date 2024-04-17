@@ -17,7 +17,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export enum UsageState {
-  pending= 'pending',
-  processed= 'processed',
-
+  pending = 'pending',
+  processed = 'processed'
 }

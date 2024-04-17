@@ -16,4 +16,4 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * OpenAPI spec version: 2024-01-24
  */
 
-export type PriceAmounts = {[key: string]: number};
+export type PriceAmounts = { [key: string]: number };

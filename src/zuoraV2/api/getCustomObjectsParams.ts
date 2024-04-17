@@ -17,32 +17,32 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export type GetCustomObjectsParams = {
-/**
- * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
- */
-page_size?: number;
-/**
- * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'expand[]'?: string[];
-/**
- * A cursor for use in pagination. A cursor defines the starting place in a list. For instance, if you make a list request and receive 100 objects, ending with `next_page=W3sib3JkZXJ=`, your subsequent call can include `cursor=W3sib3JkZXJ=` in order to fetch the next page of the list.
- */
-cursor?: string;
-/**
- * A case-sensitive filter on the list. See the [Filter lists](https://developer.zuora.com/quickstart-api/tutorial/filter-lists/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'filter[]'?: string[];
-/**
- * A case-sensitive query parameter that specifies the sort order of the list, which can be either ascending (e.g. `account_number.asc`) or descending (e.g. `account_number.desc`). You cannot sort on properties that are arrays. If the array-type properties are specified for the `sort[]` parameter, they are ignored.
- */
-'sort[]'?: string[];
-/**
- * Allows you to specify which fields are returned in the response. Accepted `field` values will be those available in your tenant.
- */
-'fields[]'?: string[];
-/**
- * Allows you to specify which fields are returned in the response. Accepted `field` values and `custom_object_types` will be those available in your tenant.
- */
-'custom_object[custom_object_type].fields[]'?: string[];
+  /**
+   * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
+   */
+  page_size?: number;
+  /**
+   * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'expand[]'?: string[];
+  /**
+   * A cursor for use in pagination. A cursor defines the starting place in a list. For instance, if you make a list request and receive 100 objects, ending with `next_page=W3sib3JkZXJ=`, your subsequent call can include `cursor=W3sib3JkZXJ=` in order to fetch the next page of the list.
+   */
+  cursor?: string;
+  /**
+   * A case-sensitive filter on the list. See the [Filter lists](https://developer.zuora.com/quickstart-api/tutorial/filter-lists/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'filter[]'?: string[];
+  /**
+   * A case-sensitive query parameter that specifies the sort order of the list, which can be either ascending (e.g. `account_number.asc`) or descending (e.g. `account_number.desc`). You cannot sort on properties that are arrays. If the array-type properties are specified for the `sort[]` parameter, they are ignored.
+   */
+  'sort[]'?: string[];
+  /**
+   * Allows you to specify which fields are returned in the response. Accepted `field` values will be those available in your tenant.
+   */
+  'fields[]'?: string[];
+  /**
+   * Allows you to specify which fields are returned in the response. Accepted `field` values and `custom_object_types` will be those available in your tenant.
+   */
+  'custom_object[custom_object_type].fields[]'?: string[];
 };

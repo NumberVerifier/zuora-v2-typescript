@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of the bill run. This field is only available if you have the <a href=”https://knowledgecenter.zuora.com/Zuora_Billing/Bill_your_customers/Automate_billing_document_generation/Bill_runs/Z_Catch-Up_Bill_Run” target=”_blank”>Catch-Up Bill Run</a> feature enabled in your tenant.
  */
 export enum BillRunCreateRequestType {
-  regular= 'regular',
-  catch_up= 'catch_up',
-
+  regular = 'regular',
+  catch_up = 'catch_up'
 }

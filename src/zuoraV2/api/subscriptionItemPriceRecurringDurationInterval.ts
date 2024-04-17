@@ -20,11 +20,10 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Specifies the duration frequency. One of day, week, month or year.
  */
 export enum SubscriptionItemPriceRecurringDurationInterval {
-  day= 'day',
-  week= 'week',
-  month= 'month',
-  year= 'year',
-  subscription_term= 'subscription_term',
-  billing_period= 'billing_period',
-
+  day = 'day',
+  week = 'week',
+  month = 'month',
+  year = 'year',
+  subscription_term = 'subscription_term',
+  billing_period = 'billing_period'
 }

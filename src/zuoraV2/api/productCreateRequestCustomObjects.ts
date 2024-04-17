@@ -21,4 +21,6 @@ import type { CustomObject } from './customObject';
 /**
  * The custom objects associated with a Zuora standard object.
  */
-export type ProductCreateRequestCustomObjects = ListCustomObjectResponse | CustomObject;
+export type ProductCreateRequestCustomObjects =
+  | ListCustomObjectResponse
+  | CustomObject;

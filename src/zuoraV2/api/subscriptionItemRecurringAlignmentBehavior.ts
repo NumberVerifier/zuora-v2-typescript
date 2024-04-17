@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Specifies how to align billing for recurring (subscription) products that start on different days.
  */
 export enum SubscriptionItemRecurringAlignmentBehavior {
-  subscription_start= 'subscription_start',
-  term_start= 'term_start',
-  term_end= 'term_end',
-  none= 'none',
-
+  subscription_start = 'subscription_start',
+  term_start = 'term_start',
+  term_end = 'term_end',
+  none = 'none'
 }

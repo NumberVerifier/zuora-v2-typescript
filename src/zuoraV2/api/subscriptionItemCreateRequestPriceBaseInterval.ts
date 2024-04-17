@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Specifies the base interval of the price the subscriber is subscribed to. If not provided, this field defaults to `billing_period`.
  */
 export enum SubscriptionItemCreateRequestPriceBaseInterval {
-  month= 'month',
-  billing_period= 'billing_period',
-  week= 'week',
-
+  month = 'month',
+  billing_period = 'billing_period',
+  week = 'week'
 }

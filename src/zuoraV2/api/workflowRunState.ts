@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The status of an active version.
  */
 export enum WorkflowRunState {
-  queued= 'queued',
-  processing= 'processing',
-
+  queued = 'queued',
+  processing = 'processing'
 }

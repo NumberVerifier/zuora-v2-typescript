@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of the replacement.
  */
 export enum SubscriptionReplacePlanPatchResponseReplacementType {
-  upgrade= 'upgrade',
-  downgrade= 'downgrade',
-  crossgrade= 'crossgrade',
-  other= 'other',
-
+  upgrade = 'upgrade',
+  downgrade = 'downgrade',
+  crossgrade = 'crossgrade',
+  other = 'other'
 }

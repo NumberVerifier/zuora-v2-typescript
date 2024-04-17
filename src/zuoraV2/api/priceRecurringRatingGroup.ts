@@ -20,10 +20,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * A rating group based on which usage records are rated. Only applicable to usage prices.
  */
 export enum PriceRecurringRatingGroup {
-  billing_period= 'billing_period',
-  usage_start_date= 'usage_start_date',
-  usage_record= 'usage_record',
-  usage_upload= 'usage_upload',
-  custom_group= 'custom_group',
-
+  billing_period = 'billing_period',
+  usage_start_date = 'usage_start_date',
+  usage_record = 'usage_record',
+  usage_upload = 'usage_upload',
+  custom_group = 'custom_group'
 }

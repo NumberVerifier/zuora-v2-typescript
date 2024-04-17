@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Indicates the type of the stored credential profile, if any.
  */
 export enum CardMandateType {
-  multi_use= 'multi_use',
-  single_use= 'single_use',
-
+  multi_use = 'multi_use',
+  single_use = 'single_use'
 }

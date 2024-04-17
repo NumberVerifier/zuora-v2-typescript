@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The status of the billing document.
  */
 export enum BillingDocumentState {
-  draft= 'draft',
-  open= 'open',
-  uncollectible= 'uncollectible',
-  failed= 'failed',
-
+  draft = 'draft',
+  open = 'open',
+  uncollectible = 'uncollectible',
+  failed = 'failed'
 }

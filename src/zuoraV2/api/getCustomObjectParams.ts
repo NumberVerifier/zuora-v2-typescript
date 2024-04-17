@@ -17,24 +17,24 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export type GetCustomObjectParams = {
-/**
- * Allows you to specify which fields are returned in the response. Accepted `field` values will be those available in your tenant.
- */
-'fields[]'?: string[];
-/**
- * Allows you to specify which fields are returned in the response. Accepted `field` values and `custom_object_types` will be those available in your tenant.
- */
-'custom_object[custom_object_type].fields[]'?: string[];
-/**
- * A case-sensitive filter on the list. See the 'Filter lists' section of the [Quickstart API Tutorial](https://developer.zuora.com/quickstart-api/tutorial/overview/) for detailed instructions.
- */
-'filter[]'?: string[];
-/**
- * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
- */
-page_size?: number;
-/**
- * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'expand[]'?: string[];
+  /**
+   * Allows you to specify which fields are returned in the response. Accepted `field` values will be those available in your tenant.
+   */
+  'fields[]'?: string[];
+  /**
+   * Allows you to specify which fields are returned in the response. Accepted `field` values and `custom_object_types` will be those available in your tenant.
+   */
+  'custom_object[custom_object_type].fields[]'?: string[];
+  /**
+   * A case-sensitive filter on the list. See the 'Filter lists' section of the [Quickstart API Tutorial](https://developer.zuora.com/quickstart-api/tutorial/overview/) for detailed instructions.
+   */
+  'filter[]'?: string[];
+  /**
+   * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
+   */
+  page_size?: number;
+  /**
+   * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'expand[]'?: string[];
 };

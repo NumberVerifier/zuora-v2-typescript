@@ -32,4 +32,4 @@ export interface ListQueryParams {
   /** A case-sensitive query parameter that specifies the sort order of the list, which can be either ascending (e.g. `account_number.asc`) or descending (e.g. `account_number.desc`). You cannot sort on properties that are arrays. If the array-type properties are specified for the `sort[]` parameter, they are ignored. */
   'sort[]'?: string[];
   [key: string]: any;
- }
+}

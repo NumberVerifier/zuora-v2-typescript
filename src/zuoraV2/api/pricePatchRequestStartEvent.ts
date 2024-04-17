@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Specifies when to start billing your customer.
  */
 export enum PricePatchRequestStartEvent {
-  contract_effective= 'contract_effective',
-  service_activation= 'service_activation',
-  customer_acceptance= 'customer_acceptance',
-  specific_date= 'specific_date',
-
+  contract_effective = 'contract_effective',
+  service_activation = 'service_activation',
+  customer_acceptance = 'customer_acceptance',
+  specific_date = 'specific_date'
 }

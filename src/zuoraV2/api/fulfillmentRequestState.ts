@@ -20,10 +20,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The status of the invoice.
  */
 export enum FulfillmentRequestState {
-  accepted= 'accepted',
-  booked= 'booked',
-  sent_to_billing= 'sent_to_billing',
-  complete= 'complete',
-  canceled= 'canceled',
-
+  accepted = 'accepted',
+  booked = 'booked',
+  sent_to_billing = 'sent_to_billing',
+  complete = 'complete',
+  canceled = 'canceled'
 }

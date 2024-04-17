@@ -17,72 +17,72 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export type GetSubscriptionItemsParams = {
-/**
- * A cursor for use in pagination. A cursor defines the starting place in a list. For instance, if you make a list request and receive 100 objects, ending with `next_page=W3sib3JkZXJ=`, your subsequent call can include `cursor=W3sib3JkZXJ=` in order to fetch the next page of the list.
- */
-cursor?: string;
-/**
- * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'expand[]'?: string[];
-/**
- * A case-sensitive filter on the list. See the [Filter lists](https://developer.zuora.com/quickstart-api/tutorial/filter-lists/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'filter[]'?: string[];
-/**
- * A case-sensitive query parameter that specifies the sort order of the list, which can be either ascending (e.g. `account_number.asc`) or descending (e.g. `account_number.desc`). You cannot sort on properties that are arrays. If the array-type properties are specified for the `sort[]` parameter, they are ignored.
- */
-'sort[]'?: string[];
-/**
- * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
- */
-page_size?: number;
-/**
+  /**
+   * A cursor for use in pagination. A cursor defines the starting place in a list. For instance, if you make a list request and receive 100 objects, ending with `next_page=W3sib3JkZXJ=`, your subsequent call can include `cursor=W3sib3JkZXJ=` in order to fetch the next page of the list.
+   */
+  cursor?: string;
+  /**
+   * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'expand[]'?: string[];
+  /**
+   * A case-sensitive filter on the list. See the [Filter lists](https://developer.zuora.com/quickstart-api/tutorial/filter-lists/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'filter[]'?: string[];
+  /**
+   * A case-sensitive query parameter that specifies the sort order of the list, which can be either ascending (e.g. `account_number.asc`) or descending (e.g. `account_number.desc`). You cannot sort on properties that are arrays. If the array-type properties are specified for the `sort[]` parameter, they are ignored.
+   */
+  'sort[]'?: string[];
+  /**
+   * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
+   */
+  page_size?: number;
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `start_date`, `end_date`, `charge_model`, `charge_type`, `tiers`, `subscription_item_number`, `name`, `description`, `charged_through_date`, `recurring`, `price_id`, `start_event`, `tax_code`, `tax_inclusive`, `unit_of_measure`, `quantity`, `price_base_interval`, `overage`, `subscription_plan_id`, `tiers_mode`, `processed_through_date`, `active`, `state`, `unit_amount`, `amount`, `discount_amount`, `discount_percent` 
         </details>
  */
-'fields[]'?: string[];
-/**
+  'fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `tiers`, `charge_model`, `charge_type`, `name`, `description`, `revenue_recognition_rule`, `stacked_discount`, `recognized_revenue_accounting_code`, `deferred_revenue_accounting_code`, `accounting_code`, `recurring`, `start_event`, `tax_code`, `tax_inclusive`, `taxable`, `unit_of_measure`, `quantity`, `min_quantity`, `max_quantity`, `price_base_interval`, `discount_level`, `overage`, `plan_id`, `tiers_mode`, `apply_discount_to`, `prepayment`, `drawdown`, `discount_amounts`, `unit_amounts`, `discount_percent`, `amounts` 
         </details>
  */
-'price.fields[]'?: string[];
-/**
+  'price.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `name`, `plan_id`, `subscription_id`, `product_id` 
         </details>
  */
-'subscription_plan.fields[]'?: string[];
-/**
+  'subscription_plan.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `start_date`, `end_date`, `name`, `active`, `description`, `plan_number`, `product_id`, `active_currencies` 
         </details>
  */
-'plan.fields[]'?: string[];
-/**
+  'plan.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `start_date`, `end_date`, `active`, `name`, `type`, `sku`, `description` 
         </details>
  */
-'product.fields[]'?: string[];
-/**
+  'product.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `subscription_number`, `state`, `account_id`, `invoice_owner_account_id`, `auto_renew`, `version`, `initial_term`, `current_term`, `renewal_term`, `start_date`, `end_date`, `description`, `contract_effective`, `service_activation`, `customer_acceptance`, `invoice_separately`, `latest_version`, `payment_terms`, `billing_document_settings`, `bill_to_id`, `sold_to_id`, `contracted_mrr`, `currency`, `cancel_reason`, `last_booking_date`, `order_number` 
         </details>
  */
-'subscription.fields[]'?: string[];
+  'subscription.fields[]'?: string[];
 };

@@ -20,12 +20,11 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Status of the subscription.
  */
 export enum SubscriptionCancelResponseState {
-  draft= 'draft',
-  pending_activation= 'pending_activation',
-  pending_acceptance= 'pending_acceptance',
-  active= 'active',
-  expired= 'expired',
-  canceled= 'canceled',
-  paused= 'paused',
-
+  draft = 'draft',
+  pending_activation = 'pending_activation',
+  pending_acceptance = 'pending_acceptance',
+  active = 'active',
+  expired = 'expired',
+  canceled = 'canceled',
+  paused = 'paused'
 }

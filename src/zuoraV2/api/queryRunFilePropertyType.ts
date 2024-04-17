@@ -20,6 +20,5 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of file.
  */
 export enum QueryRunFilePropertyType {
-  query_run= 'query_run',
-
+  query_run = 'query_run'
 }

@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Status of the tax exemption certificate, indication whether the certificate has been verified.
  */
 export enum TaxCertificateState {
-  pending= 'pending',
-  verified= 'verified',
-  not_valid= 'not_valid',
-
+  pending = 'pending',
+  verified = 'verified',
+  not_valid = 'not_valid'
 }

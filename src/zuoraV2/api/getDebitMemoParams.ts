@@ -17,57 +17,57 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export type GetDebitMemoParams = {
-/**
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `balance`, `due_date`, `debit_memo_number`, `state_transitions`, `description`, `account_id`, `total`, `subtotal`, `tax`, `document_date`, `posted_by_id`, `state`, `reason_code`, `paid`, `past_due`, `billing_document_settings`, `payment_terms`, `bill_to_id`, `invoice_id`, `currency` 
         </details>
  */
-'fields[]'?: string[];
-/**
+  'fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `amount`, `applied_to_item_id`, `price_id`, `discount_item`, `deferred_revenue_account`, `description`, `document_item_date`, `invoice_item_id`, `sku`, `name`, `quantity`, `recognized_revenue_account`, `remaining_balance`, `service_end`, `service_start`, `accounts_receivable_account`, `subscription_id`, `subscription_item_id`, `subtotal`, `tax`, `tax_code`, `tax_inclusive`, `unit_amount`, `unit_of_measure`, `debit_memo_id` 
         </details>
  */
-'debit_memo_items.fields[]'?: string[];
-/**
+  'debit_memo_items.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `amount`, `amount_exempt`, `tax_date`, `jurisdiction`, `location_code`, `name`, `sales_tax_payable_account`, `tax_code`, `tax_code_name`, `tax_rate`, `tax_rate_name`, `tax_inclusive`, `tax_rate_type`, `amount_credited`, `amount_paid`, `remaining_balance` 
         </details>
  */
-'taxation_items.fields[]'?: string[];
-/**
+  'taxation_items.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `auto_pay`, `account_number`, `bill_to_id`, `sold_to_id`, `billing_document_settings`, `communication_profile_id`, `crm_id`, `sales_rep`, `parent_account_id`, `payment_gateway`, `payment_terms`, `remaining_credit_memo_balance`, `remaining_debit_memo_balance`, `remaining_invoice_balance`, `remaining_payment_balance`, `sequence_set_id`, `tax_certificate`, `batch`, `tax_identifier`, `bill_cycle_day`, `description`, `name`, `currency`, `default_payment_method_id`, `enabled` 
         </details>
  */
-'account.fields[]'?: string[];
-/**
+  'account.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `account_id`, `address`, `home_phone`, `first_name`, `last_name`, `email`, `work_email`, `nickname`, `other_phone`, `work_phone`, `mobile_phone`, `tax_region`, `other_phone_type`, `fax` 
         </details>
  */
-'bill_to.fields[]'?: string[];
-/**
- * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'expand[]'?: string[];
-/**
+  'bill_to.fields[]'?: string[];
+  /**
+   * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'expand[]'?: string[];
+  /**
  * A case-sensitive filter on the list. See the [Filter lists](https://developer.zuora.com/quickstart-api/tutorial/filter-lists/) section of the Quickstart API Tutorial for detailed instructions.            
             Note that the filters on this operation are only applicable to the related objects. For example, when you are calling the "Retrieve a billing document" operation, you can use the `filter[]` parameter on the related objects such as `filter[]=items[account_id].EQ:8ad09e208858b5cf0188595208151c63`
  */
-'filter[]'?: string[];
-/**
- * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
- */
-page_size?: number;
+  'filter[]'?: string[];
+  /**
+   * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
+   */
+  page_size?: number;
 };

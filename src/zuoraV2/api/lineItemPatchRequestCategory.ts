@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Category of the order line item.
  */
 export enum LineItemPatchRequestCategory {
-  sale= 'sale',
-  return= 'return',
-
+  sale = 'sale',
+  return = 'return'
 }

@@ -29,4 +29,4 @@ export interface GetByIdQueryParams {
    */
   page_size?: number;
   [key: string]: any;
- }
+}

@@ -20,10 +20,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Status of the payment run.
  */
 export enum PaymentRunState {
-  processing= 'processing',
-  pending= 'pending',
-  completed= 'completed',
-  canceled= 'canceled',
-  failed= 'failed',
-
+  processing = 'processing',
+  pending = 'pending',
+  completed = 'completed',
+  canceled = 'canceled',
+  failed = 'failed'
 }

@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The state of the payment method.
  */
 export enum PaymentPaymentMethodState {
-  active= 'active',
-  closed= 'closed',
-  scrubbed= 'scrubbed',
-
+  active = 'active',
+  closed = 'closed',
+  scrubbed = 'scrubbed'
 }

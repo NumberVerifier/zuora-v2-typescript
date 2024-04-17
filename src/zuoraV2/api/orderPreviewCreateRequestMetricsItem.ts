@@ -17,7 +17,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export enum OrderPreviewCreateRequestMetricsItem {
-  billing_documents= 'billing_documents',
-  delta_metrics= 'delta_metrics',
-
+  billing_documents = 'billing_documents',
+  delta_metrics = 'delta_metrics'
 }

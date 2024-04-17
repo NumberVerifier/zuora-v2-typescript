@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Category of the order to indicate a product sale or return. Default value is `sale`.
  */
 export enum OrderCancelResponseCategory {
-  sale= 'sale',
-  return= 'return',
-
+  sale = 'sale',
+  return = 'return'
 }

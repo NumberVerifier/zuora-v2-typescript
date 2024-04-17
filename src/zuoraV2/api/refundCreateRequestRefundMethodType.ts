@@ -17,14 +17,13 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export enum RefundCreateRequestRefundMethodType {
-  cash= 'cash',
-  check= 'check',
-  wire_transfer= 'wire_transfer',
-  pay_pal= 'pay_pal',
-  credit_card= 'credit_card',
-  cc_ref= 'cc_ref',
-  ach_debit= 'ach_debit',
-  debit_card= 'debit_card',
-  other= 'other',
-
+  cash = 'cash',
+  check = 'check',
+  wire_transfer = 'wire_transfer',
+  pay_pal = 'pay_pal',
+  credit_card = 'credit_card',
+  cc_ref = 'cc_ref',
+  ach_debit = 'ach_debit',
+  debit_card = 'debit_card',
+  other = 'other'
 }

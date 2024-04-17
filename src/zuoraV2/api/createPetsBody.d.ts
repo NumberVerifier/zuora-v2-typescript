@@ -5,7 +5,7 @@
  * OpenAPI spec version: 1.0.0
  */
 export type CreatePetsBody = {
-    name: string;
-    tag: string;
+  name: string;
+  tag: string;
 };
 //# sourceMappingURL=createPetsBody.d.ts.map

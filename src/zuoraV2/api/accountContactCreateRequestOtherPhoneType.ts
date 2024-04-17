@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of the additional phone number.
  */
 export enum AccountContactCreateRequestOtherPhoneType {
-  work= 'work',
-  mobile= 'mobile',
-  home= 'home',
-  other= 'other',
-
+  work = 'work',
+  mobile = 'mobile',
+  home = 'home',
+  other = 'other'
 }

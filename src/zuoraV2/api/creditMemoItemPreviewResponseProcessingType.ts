@@ -17,9 +17,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export enum CreditMemoItemPreviewResponseProcessingType {
-  subscription_item= 'subscription_item',
-  discount= 'discount',
-  prepayment= 'prepayment',
-  tax= 'tax',
-
+  subscription_item = 'subscription_item',
+  discount = 'discount',
+  prepayment = 'prepayment',
+  tax = 'tax'
 }

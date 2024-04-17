@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The status of the mandate, which indicates whether it can be used to initiate a payment.
  */
 export enum RefundPaymentMethodNzBecsDebitMandateState {
-  active= 'active',
-  canceled= 'canceled',
-  expired= 'expired',
-  agreed= 'agreed',
-
+  active = 'active',
+  canceled = 'canceled',
+  expired = 'expired',
+  agreed = 'agreed'
 }

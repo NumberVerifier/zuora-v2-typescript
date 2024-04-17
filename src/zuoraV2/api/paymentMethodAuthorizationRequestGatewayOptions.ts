@@ -19,4 +19,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
 /**
  * A hash containing gateway-specific parameters.
  */
-export type PaymentMethodAuthorizationRequestGatewayOptions = {[key: string]: string};
+export type PaymentMethodAuthorizationRequestGatewayOptions = {
+  [key: string]: string;
+};

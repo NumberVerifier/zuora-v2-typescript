@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * You can choose to bill in_advance or in_arrears for recurring prices. The field is not used with one-time or usage-based prices.
  */
 export enum RecurringTiming {
-  in_advance= 'in_advance',
-  in_arrears= 'in_arrears',
-
+  in_advance = 'in_advance',
+  in_arrears = 'in_arrears'
 }

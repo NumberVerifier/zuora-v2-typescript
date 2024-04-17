@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * If supplied, Zuora with compress the output file using the specified compression algorithm.
  */
 export enum QueryRunCreateRequestContentEncoding {
-  gzip= 'gzip',
-  zip= 'zip',
-  none= 'none',
-
+  gzip = 'gzip',
+  zip = 'zip',
+  none = 'none'
 }

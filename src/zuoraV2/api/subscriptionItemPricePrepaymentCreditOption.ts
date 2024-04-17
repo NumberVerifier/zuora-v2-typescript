@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The way to calculate credit. See <a href='https://knowledgecenter.zuora.com/Zuora_Billing/Billing_and_Invoicing/JA_Advanced_Consumption_Billing/Prepaid_with_Drawdown/A_Create_prepayment_charge#Credit_Option'  target='_blank'>Credit Option</a> for more information.
  */
 export enum SubscriptionItemPricePrepaymentCreditOption {
-  time_based= 'time_based',
-  consumption_based= 'consumption_based',
-  full_credit= 'full_credit',
-
+  time_based = 'time_based',
+  consumption_based = 'consumption_based',
+  full_credit = 'full_credit'
 }

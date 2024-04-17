@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Specifies whether to just create an invoice, or to create an invoice and collect payment.
  */
 export enum ProcessingOptionsCollectionMethod {
-  collect_payment= 'collect_payment',
-  create_invoice= 'create_invoice',
-  process_refund= 'process_refund',
-  run_billing= 'run_billing',
-
+  collect_payment = 'collect_payment',
+  create_invoice = 'create_invoice',
+  process_refund = 'process_refund',
+  run_billing = 'run_billing'
 }

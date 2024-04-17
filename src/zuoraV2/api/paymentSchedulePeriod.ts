@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Unit in which term duration is defined. One of week or month.
  */
 export enum PaymentSchedulePeriod {
-  week= 'week',
-  month= 'month',
-  biweekly= 'biweekly',
-
+  week = 'week',
+  month = 'month',
+  biweekly = 'biweekly'
 }

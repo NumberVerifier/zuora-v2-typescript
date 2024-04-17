@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Represents the overage type: one of rolling_window or rollover.
  */
 export enum SubscriptionItemOverageType {
-  rolling_window= 'rolling_window',
-  rollover= 'rollover',
-
+  rolling_window = 'rolling_window',
+  rollover = 'rollover'
 }

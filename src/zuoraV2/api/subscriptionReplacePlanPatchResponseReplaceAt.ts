@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The date when the replacement occurs. It can be either the current date or the end of the current billing period.
  */
 export enum SubscriptionReplacePlanPatchResponseReplaceAt {
-  now= 'now',
-  end_of_billing_period= 'end_of_billing_period',
-  specific_date= 'specific_date',
-
+  now = 'now',
+  end_of_billing_period = 'end_of_billing_period',
+  specific_date = 'specific_date'
 }

@@ -20,11 +20,10 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The state of the refund.
  */
 export enum RefundState {
-  draft= 'draft',
-  posted= 'posted',
-  processing= 'processing',
-  processed= 'processed',
-  error= 'error',
-  canceled= 'canceled',
-
+  draft = 'draft',
+  posted = 'posted',
+  processing = 'processing',
+  processed = 'processed',
+  error = 'error',
+  canceled = 'canceled'
 }

@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The date on which the subscription is canceled. Can be either the end of the subscription term or the end of the billing period.
  */
 export enum CancelSubscriptionRequestCancelAt {
-  invoice_period_end= 'invoice_period_end',
-  subscription_term_end= 'subscription_term_end',
-
+  invoice_period_end = 'invoice_period_end',
+  subscription_term_end = 'subscription_term_end'
 }

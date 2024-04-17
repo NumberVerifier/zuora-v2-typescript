@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of billing document, one of credit_memo, debit_memo or invoice.
  */
 export enum BillingDocumentItemType {
-  credit_memo= 'credit_memo',
-  debit_memo= 'debit_memo',
-  invoice= 'invoice',
-
+  credit_memo = 'credit_memo',
+  debit_memo = 'debit_memo',
+  invoice = 'invoice'
 }

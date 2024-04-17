@@ -20,10 +20,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The status of the debit memo.
  */
 export enum DebitMemoState {
-  draft= 'draft',
-  posted= 'posted',
-  open= 'open',
-  canceled= 'canceled',
-  failed= 'failed',
-
+  draft = 'draft',
+  posted = 'posted',
+  open = 'open',
+  canceled = 'canceled',
+  failed = 'failed'
 }

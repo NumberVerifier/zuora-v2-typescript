@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of the file returned.
  */
 export enum QueryRunCreateRequestContentType {
-  json= 'json',
-  csv= 'csv',
-  tsv= 'tsv',
-  dsv= 'dsv',
-
+  json = 'json',
+  csv = 'csv',
+  tsv = 'tsv',
+  dsv = 'dsv'
 }

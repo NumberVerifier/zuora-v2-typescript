@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of the active version. Currently the only valid value is `Workflow::Setup`.
  */
 export enum WorkflowRunType {
-  setup= 'setup',
-  instance= 'instance',
-
+  setup = 'setup',
+  instance = 'instance'
 }

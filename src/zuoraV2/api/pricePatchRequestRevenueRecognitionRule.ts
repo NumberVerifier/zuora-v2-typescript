@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Determines when to recognize the revenue for this charge. You can choose to recognize upon invoicing or daily over time.
  */
 export enum PricePatchRequestRevenueRecognitionRule {
-  on_invoice= 'on_invoice',
-  daily_over_time= 'daily_over_time',
-
+  on_invoice = 'on_invoice',
+  daily_over_time = 'daily_over_time'
 }

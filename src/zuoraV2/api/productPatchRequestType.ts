@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of product.
  */
 export enum ProductPatchRequestType {
-  base= 'base',
-  add_on= 'add_on',
-  other= 'other',
-
+  base = 'base',
+  add_on = 'add_on',
+  other = 'other'
 }

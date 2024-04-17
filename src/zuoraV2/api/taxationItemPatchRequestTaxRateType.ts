@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Indicates whether the tax rate is an amount or a percentage.
  */
 export enum TaxationItemPatchRequestTaxRateType {
-  percent= 'percent',
-  amount= 'amount',
-
+  percent = 'percent',
+  amount = 'amount'
 }

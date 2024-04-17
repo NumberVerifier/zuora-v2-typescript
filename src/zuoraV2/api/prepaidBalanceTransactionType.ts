@@ -17,10 +17,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 /**
- * An action that increases or decreases its associated prepaid balance. 
+ * An action that increases or decreases its associated prepaid balance.
  */
 export enum PrepaidBalanceTransactionType {
-  prepayment= 'prepayment',
-  drawdown= 'drawdown',
-
+  prepayment = 'prepayment',
+  drawdown = 'drawdown'
 }

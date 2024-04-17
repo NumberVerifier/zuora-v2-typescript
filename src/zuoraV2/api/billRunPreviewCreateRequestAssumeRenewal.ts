@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Indicates whether to generate a preview of future invoice items and credit memo items with the assumption that the subscriptions are renewed. **all**: The assumption is applied to all the subscriptions. Zuora generates preview invoice item data and credit memo item data from the first day of the customer's next billing period to the target date. **auto_renew_only**: The assumption is applied to the subscriptions that have auto_renew enabled. Zuora generates preview invoice item data and credit memo item data from the first day of the customer's next billing period to the target date.
  */
 export enum BillRunPreviewCreateRequestAssumeRenewal {
-  all= 'all',
-  auto_renew_only= 'auto_renew_only',
-  none= 'none',
-
+  all = 'all',
+  auto_renew_only = 'auto_renew_only',
+  none = 'none'
 }

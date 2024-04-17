@@ -17,56 +17,56 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export type GetFulfillmentsParams = {
-/**
- * A cursor for use in pagination. A cursor defines the starting place in a list. For instance, if you make a list request and receive 100 objects, ending with `next_page=W3sib3JkZXJ=`, your subsequent call can include `cursor=W3sib3JkZXJ=` in order to fetch the next page of the list.
- */
-cursor?: string;
-/**
- * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'expand[]'?: string[];
-/**
- * A case-sensitive filter on the list. See the [Filter lists](https://developer.zuora.com/quickstart-api/tutorial/filter-lists/) section of the Quickstart API Tutorials for detailed instructions.
- */
-'filter[]'?: string[];
-/**
- * A case-sensitive query parameter that specifies the sort order of the list, which can be either ascending (e.g. `account_number.asc`) or descending (e.g. `account_number.desc`). You cannot sort on properties that are arrays. If the array-type properties are specified for the `sort[]` parameter, they are ignored.
- */
-'sort[]'?: string[];
-/**
- * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
- */
-page_size?: number;
-/**
+  /**
+   * A cursor for use in pagination. A cursor defines the starting place in a list. For instance, if you make a list request and receive 100 objects, ending with `next_page=W3sib3JkZXJ=`, your subsequent call can include `cursor=W3sib3JkZXJ=` in order to fetch the next page of the list.
+   */
+  cursor?: string;
+  /**
+   * Allows you to expand responses by including related object information in a single call. See the [Expand responses](https://developer.zuora.com/quickstart-api/tutorial/expand-responses/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'expand[]'?: string[];
+  /**
+   * A case-sensitive filter on the list. See the [Filter lists](https://developer.zuora.com/quickstart-api/tutorial/filter-lists/) section of the Quickstart API Tutorials for detailed instructions.
+   */
+  'filter[]'?: string[];
+  /**
+   * A case-sensitive query parameter that specifies the sort order of the list, which can be either ascending (e.g. `account_number.asc`) or descending (e.g. `account_number.desc`). You cannot sort on properties that are arrays. If the array-type properties are specified for the `sort[]` parameter, they are ignored.
+   */
+  'sort[]'?: string[];
+  /**
+   * The maximum number of results to return in a single page. If the specified `page_size` is less than 1 or greater than 99, Zuora will return a 400 error.
+   */
+  page_size?: number;
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `state`, `description`, `quantity`, `order_line_item_id`, `fulfillment_number`, `revenue`, `fulfillment_date`, `tracking_number`, `carrier`, `fulfillment_system`, `location`, `external_id`, `type`, `target_date` 
         </details>
  */
-'fields[]'?: string[];
-/**
+  'fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `fulfillment_id`, `description`, `fulfillment_item_number` 
         </details>
  */
-'fulfillment_item.fields[]'?: string[];
-/**
+  'fulfillment_item.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `amount`, `applied_to_item_id`, `price_id`, `discount_item`, `deferred_revenue_account`, `description`, `credit_memo_id`, `sku`, `name`, `purchase_order_number`, `quantity`, `recognized_revenue_account`, `remaining_balance`, `revenue_recognition_rule_name`, `service_end`, `service_start`, `accounts_receivable_account`, `on_account_account`, `subscription_id`, `subscription_item_id`, `tax`, `tax_code`, `tax_inclusive`, `unit_amount`, `unit_of_measure`, `subtotal`, `invoice_item_id`, `document_item_date` 
         </details>
  */
-'credit_memo_item.fields[]'?: string[];
-/**
+  'credit_memo_item.fields[]'?: string[];
+  /**
  * Allows you to specify which fields are returned in the response. 
         <details> 
           <summary> Accepted values </summary> 
             `custom_fields`, `created_by_id`, `updated_by_id`, `created_time`, `id`, `updated_time`, `amount`, `booking_reference`, `applied_to_item_id`, `price_id`, `discount_item`, `deferred_revenue_account`, `description`, `invoice_id`, `sku`, `name`, `purchase_order_number`, `quantity`, `recognized_revenue_account`, `remaining_balance`, `revenue_recognition_rule_name`, `accounting_code`, `service_end`, `service_start`, `accounts_receivable_account`, `subscription_id`, `subscription_item_id`, `tax`, `tax_code`, `tax_inclusive`, `unit_amount`, `unit_of_measure`, `document_item_date` 
         </details>
  */
-'invoice_item.fields[]'?: string[];
+  'invoice_item.fields[]'?: string[];
 };

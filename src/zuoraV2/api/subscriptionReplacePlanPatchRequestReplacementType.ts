@@ -17,9 +17,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  */
 
 export enum SubscriptionReplacePlanPatchRequestReplacementType {
-  upgrade= 'upgrade',
-  downgrade= 'downgrade',
-  crossgrade= 'crossgrade',
-  other= 'other',
-
+  upgrade = 'upgrade',
+  downgrade = 'downgrade',
+  crossgrade = 'crossgrade',
+  other = 'other'
 }

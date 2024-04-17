@@ -39,4 +39,4 @@ export interface CustomObject {
   /** The date and time when the object was last updated in ISO 8601 UTC format. */
   readonly updated_time?: Date;
   [key: string]: any;
- }
+}

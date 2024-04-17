@@ -20,11 +20,10 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Card brand.
  */
 export enum PaymentPaymentMethodCardBrand {
-  visa= 'visa',
-  mastercard= 'mastercard',
-  american_express= 'american_express',
-  discover= 'discover',
-  jcb= 'jcb',
-  diners= 'diners',
-
+  visa = 'visa',
+  mastercard = 'mastercard',
+  american_express = 'american_express',
+  discover = 'discover',
+  jcb = 'jcb',
+  diners = 'diners'
 }

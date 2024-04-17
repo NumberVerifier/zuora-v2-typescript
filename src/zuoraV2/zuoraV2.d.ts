@@ -6,11 +6,23 @@
  */
 import type { CreatePetsBody, ListPetsParams, Pet, Pets } from './api';
 export declare const getSwaggerPetstore: () => {
-    listPets: (params?: ListPetsParams) => Promise<import("axios").AxiosResponse<Pets, any>>;
-    createPets: (createPetsBody: CreatePetsBody) => Promise<import("axios").AxiosResponse<void, any>>;
-    showPetById: (petId: string) => Promise<import("axios").AxiosResponse<Pet, any>>;
+  listPets: (
+    params?: ListPetsParams
+  ) => Promise<import('axios').AxiosResponse<Pets, any>>;
+  createPets: (
+    createPetsBody: CreatePetsBody
+  ) => Promise<import('axios').AxiosResponse<void, any>>;
+  showPetById: (
+    petId: string
+  ) => Promise<import('axios').AxiosResponse<Pet, any>>;
 };
-export type ListPetsResult = NonNullable<Awaited<ReturnType<ReturnType<typeof getSwaggerPetstore>['listPets']>>>;
-export type CreatePetsResult = NonNullable<Awaited<ReturnType<ReturnType<typeof getSwaggerPetstore>['createPets']>>>;
-export type ShowPetByIdResult = NonNullable<Awaited<ReturnType<ReturnType<typeof getSwaggerPetstore>['showPetById']>>>;
+export type ListPetsResult = NonNullable<
+  Awaited<ReturnType<ReturnType<typeof getSwaggerPetstore>['listPets']>>
+>;
+export type CreatePetsResult = NonNullable<
+  Awaited<ReturnType<ReturnType<typeof getSwaggerPetstore>['createPets']>>
+>;
+export type ShowPetByIdResult = NonNullable<
+  Awaited<ReturnType<ReturnType<typeof getSwaggerPetstore>['showPetById']>>
+>;
 //# sourceMappingURL=zuoraV2.d.ts.map

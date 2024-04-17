@@ -20,6 +20,5 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Can be either the end of the current billing period or a specific date.
  */
 export enum PauseSubscriptionRequestPauseAt {
-  invoice_period_end= 'invoice_period_end',
-
+  invoice_period_end = 'invoice_period_end'
 }

@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * Unit in which the pause duration is defined. One of day, week, month or year.
  */
 export enum SubscriptionPausePatchResponsePauseInterval {
-  month= 'month',
-  day= 'day',
-  year= 'year',
-  week= 'week',
-
+  month = 'month',
+  day = 'day',
+  year = 'year',
+  week = 'week'
 }

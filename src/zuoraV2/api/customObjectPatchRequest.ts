@@ -16,4 +16,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * OpenAPI spec version: 2024-01-24
  */
 
-export interface CustomObjectPatchRequest { [key: string]: any }
+export interface CustomObjectPatchRequest {
+  [key: string]: any;
+}

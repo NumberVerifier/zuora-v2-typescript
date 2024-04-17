@@ -20,11 +20,10 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The query's execution state, which will be completed for successful runs.
  */
 export enum QueryRunState {
-  pending= 'pending',
-  accepted= 'accepted',
-  in_progress= 'in_progress',
-  complete= 'complete',
-  failed= 'failed',
-  canceled= 'canceled',
-
+  pending = 'pending',
+  accepted = 'accepted',
+  in_progress = 'in_progress',
+  complete = 'complete',
+  failed = 'failed',
+  canceled = 'canceled'
 }

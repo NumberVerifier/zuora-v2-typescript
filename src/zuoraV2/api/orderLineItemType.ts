@@ -20,8 +20,7 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of the order line item.
  */
 export enum OrderLineItemType {
-  product= 'product',
-  fee= 'fee',
-  services= 'services',
-
+  product = 'product',
+  fee = 'fee',
+  services = 'services'
 }

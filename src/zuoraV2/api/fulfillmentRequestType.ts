@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The type of fulfillment.
  */
 export enum FulfillmentRequestType {
-  delivery= 'delivery',
-  return= 'return',
-
+  delivery = 'delivery',
+  return = 'return'
 }

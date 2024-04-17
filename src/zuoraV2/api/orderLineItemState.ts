@@ -20,10 +20,9 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The state of an order line item. If you want to generate billing documents for order line items, you must set this field to `sent_to_billing`. For invoice preview, you do not need to set this field.
  */
 export enum OrderLineItemState {
-  pending= 'pending',
-  booked= 'booked',
-  sent_to_billing= 'sent_to_billing',
-  complete= 'complete',
-  canceled= 'canceled',
-
+  pending = 'pending',
+  booked = 'booked',
+  sent_to_billing = 'sent_to_billing',
+  complete = 'complete',
+  canceled = 'canceled'
 }

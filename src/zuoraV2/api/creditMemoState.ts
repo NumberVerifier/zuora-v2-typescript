@@ -20,9 +20,8 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The status of the billing document.
  */
 export enum CreditMemoState {
-  draft= 'draft',
-  posted= 'posted',
-  canceled= 'canceled',
-  failed= 'failed',
-
+  draft = 'draft',
+  posted = 'posted',
+  canceled = 'canceled',
+  failed = 'failed'
 }

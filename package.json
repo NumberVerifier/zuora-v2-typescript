@@ -23,14 +23,6 @@
     "updateSchema": "curl --compressed -o './src/swaggerv2API.yaml' -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36' -H 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8' -H 'Accept-Language: en-US,en;q=0.5' -H 'Referer: https://developer.zuora.com/' 'https://developer.zuora.com/yaml/swaggerv2API.yaml'",
     "schema": "orval --config ./orval.config.ts"
   },
-
-  "prettier": {
-    "printWidth": 80,
-    "semi": true,
-    "singleQuote": true,
-    "trailingComma": "none",
-    "arrowParens": "avoid"
-  },
   "main": "dist/zuora-v2-typescript.umd.js",
   "module": "dist/zuora-v2-typescript.esm.js",
   "umd:main": "dist/zuora-v2-typescript.umd.js",

@@ -20,7 +20,6 @@ We recommend that you subscribe to [Developers Community](https://community.zuor
  * The billing rule for the order line item.
  */
 export enum OrderLineItemBillingRule {
-  trigger_without_fulfillment= 'trigger_without_fulfillment',
-  trigger_on_fulfillment= 'trigger_on_fulfillment',
-
+  trigger_without_fulfillment = 'trigger_without_fulfillment',
+  trigger_on_fulfillment = 'trigger_on_fulfillment'
 }
