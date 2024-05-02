@@ -7,6 +7,12 @@ https://developer.zuora.com/api-references/quickstart-api/overview/
 1. Copy .env to .env.local and set values
 2. Run npx ts-node test.ts from the examples folder
 
+## Playground
+This lets you test the SDK in a browser environment.
+cd playground
+npm install
+npm run dev
+
 ### For ZUORA_ENDPOINT use the name not the URL
 ```typescript
 export enum ZUORA_ENDPOINTS {

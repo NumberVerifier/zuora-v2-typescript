@@ -11,10 +11,16 @@ export class ZuoraClient {
   auth: AuthResponse | null = null;
   authExpires: Date | null = null;
   private mutex = new Mutex();
+  debug: boolean = false;
 
   // The ZuoraClient class is a wrapper around the Zuora REST API. It provides a simple interface for making requests to the API.
   // Endpoint can be a key from the ZUORA_ENDPOINTS enum or a full URL.
-  constructor(clientId?: string, clientSecret?: string, endpoint?: string) {
+  constructor(
+    clientId?: string,
+    clientSecret?: string,
+    endpoint?: string,
+    debug?: boolean
+  ) {
     if (!clientId || !clientSecret || !endpoint)
       throw new Error('Missing required parameters');
     if (endpoint.startsWith('http') || endpoint.startsWith('/')) {
@@ -26,6 +32,7 @@ export class ZuoraClient {
     }
     this.clientId = clientId;
     this.clientSecret = clientSecret;
+    if (debug) this.debug = debug;
   }
 
   public async addAuth(cfg: AxiosRequestConfig) {

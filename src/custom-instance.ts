@@ -18,6 +18,8 @@ export const customInstance = async <T>(
   };
   if (options?.client) {
     await options.client.addAuth(axopts);
+    if (options?.client && options.client.debug)
+      console.log('AxiosRequestConfig:', axopts);
   }
   if (options?.override) {
     const { headers, ...rest } = options.override;
