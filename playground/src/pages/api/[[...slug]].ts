@@ -48,12 +48,6 @@ export default async function handler(
       qpath = slug;
     }
 
-    const qbody = req.body as object;
-    const uparams = new URLSearchParams();
-    Object.keys(qbody).forEach(key => {
-      uparams.append(key, qbody[key]);
-    });
-
     //getToken https://rest.sandbox.na.zuora.com client_id=af7cb42b-2dc9-4fae-8a39-280699dec1d9&client_secret=jX%3DSzK4PPQUyg96OP3zrsjZ%2BKoDZk06UybDZkDe8P&grant_type=client_credentials
     const q = `https://rest.sandbox.na.zuora.com${qpath}`;
 
@@ -62,12 +56,26 @@ export default async function handler(
       method: req.method,
       url: q,
       headers: {
-        'content-type': 'application/x-www-form-urlencoded',
         accept: 'application/json'
       }
     };
-    if (req.method === 'POST') {
+    if (qpath.includes('auth')) {
+      console.log('auth', qpath);
+      const qbody = req.body as object;
+      const uparams = new URLSearchParams();
+      Object.keys(qbody).forEach(key => {
+        uparams.append(key, qbody[key]);
+      });
       cfg.data = uparams.toString();
+      cfg.headers = {
+        ...cfg.headers,
+        'Content-Type': 'application/x-www-form-urlencoded'
+      };
+    } else if (req.method === 'POST' || req.method === 'PATCH') {
+      console.log('POST', typeof req.body);
+      cfg.headers = { ...cfg.headers, 'Content-Type': 'application/json' };
+      // cfg.data = JSON.stringify(req.body);
+      cfg.data = req.body;
     }
 
     if (req.headers.authorization)
@@ -75,44 +83,21 @@ export default async function handler(
     console.log('req', JSON.stringify(cfg, null, 2));
     const aresp = await axios(cfg);
     console.log('proxy', aresp.status, aresp.statusText);
-    if (aresp.status === 200) {
+    if (aresp.status >= 200 && aresp.status < 300) {
       console.log('SUCCESS', aresp.data);
       res.status(200).json(aresp.data);
     } else {
+      console.log('ERROR', aresp.status, aresp.statusText);
       res.status(aresp.status).json({ error: aresp.statusText });
     }
   } catch (e) {
-    if (e instanceof AxiosError) {
-      console.error(e.response?.data);
+    if (axios.isAxiosError(e)) {
+      console.error('axios err', e.response?.data);
       res.status(e.response?.status || 500).json({ error: e.response?.data });
       return;
     } else {
-      console.error(e);
+      console.error('not axios', e);
     }
     res.status(500).json({ error: e.message });
   }
-  // const freq:RequestInit = {
-  //     method: req.method,
-  //     headers: {
-  //         'content-type': 'application/x-www-form-urlencoded',
-  //         'accept-encoding': 'gzip',
-  //         'accept': 'application/json',
-  //         'User-Agent': 'axios/0.21.1' // Simulating Axios User-Agent
-  //
-  //     },
-  //     body: uparams.toString()
-  //     // headers: convertHeaders(req.headers),
-  // }
-  // console.log("request init", JSON.stringify(freq, null, 2))
-  // const resp = await fetch(q,freq)
-  // console.log("proxy", resp.status, resp.statusText)
-  // if (resp.ok) {
-  //     const body = await resp.json()
-  //     console.log("proxy", body)
-  //     res.status(200).json(body)
-  // }
-  // else {
-  //     res.status(resp.status).json({error: resp.statusText})
-  // }
-  // res.status(200).json({ name: 'John Doe' })
 }

@@ -8,12 +8,17 @@ https://developer.zuora.com/api-references/quickstart-api/overview/
 2. Run npx ts-node test.ts from the examples folder
 
 ## Playground
+1. cd playground
+2. npm install
+3. npm run dev
+
+## Playground
 This lets you test the SDK in a browser environment.
 cd playground
 npm install
 npm run dev
 
-### For ZUORA_ENDPOINT use the name not the URL
+### For ZUORA_ENDPOINT use the name or a URL
 ```typescript
 export enum ZUORA_ENDPOINTS {
     US_SANDBOX = "https://rest.sandbox.zuora.com",
@@ -26,6 +31,6 @@ export enum ZUORA_ENDPOINTS {
     EU_PRODUCTION = "https://rest.eu.zuora.com"
 }
 ```
-### Install with tag (update this to the latest tag)
+### Install 
  npm install --save "git://github.com/NumberVerifier/zuora-v2-typescript.git"
 
