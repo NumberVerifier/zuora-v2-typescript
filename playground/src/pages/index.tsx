@@ -26,6 +26,7 @@ const zora = new ZuoraClient(
   process.env.NEXT_PUBLIC_ZUORA_CLIENT_ID,
   process.env.NEXT_PUBLIC_ZUORA_CLIENT_SECRET,
   zuoraAddress,
+  {},
   true
 );
 

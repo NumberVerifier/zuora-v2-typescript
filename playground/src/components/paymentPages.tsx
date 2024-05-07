@@ -110,7 +110,7 @@ export const PaymentPage = () => {
       };
       const zPageTokens = await ctx.zora.GetPages2Signature(sigReq);
       const zparam: renderParams = {
-        tenantId: process.env.NEXT_PUBLIC_ZUORA_PAGES_TENANTID,
+        tenantId: zPageTokens.tenantId,
         id: process.env.NEXT_PUBLIC_ZUORA_PAGES_PAGEID,
         key: zPageTokens.key,
         token: zPageTokens.token,
