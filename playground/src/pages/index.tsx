@@ -19,6 +19,7 @@ import {
 } from '../components/paymentMethods';
 import { GetPayment, ListPayments } from '../components/payments';
 import { PaymentPage } from '../components/paymentPages';
+import process from 'process';
 
 const zuoraAddress = '/api/proxy'; // process.env.NEXT_PUBLIC_ZUORA_ENDPOINT;
 const inter = Inter({ subsets: ['latin'] });
@@ -26,7 +27,11 @@ const zora = new ZuoraClient(
   process.env.NEXT_PUBLIC_ZUORA_CLIENT_ID,
   process.env.NEXT_PUBLIC_ZUORA_CLIENT_SECRET,
   zuoraAddress,
-  {},
+  {
+    id: process.env.NEXT_PUBLIC_ZUORA_PAGES_PAGEID,
+    uri: process.env.NEXT_PUBLIC_ZUORA_SIG_URI,
+    param_supportedTypes: process.env.NEXT_PUBLIC_ZUORA_PAGES_SUPPORTED
+  },
   true
 );
 
